@@ -21,3 +21,20 @@ function multiply() {
     let multiplyResult = num1 * num2
     sumEl.textContent = "Sum: " + multiplyResult   
 }
+
+
+var lastBtn;
+var btn = document.getElementsByClassName("btns");
+
+for (var i = 0; i < btn.length; i++) {
+    btn[i].addEventListener("click", myFunction);
+}
+
+function myFunction() {
+  if (lastBtn)
+    lastBtn.classList.remove("clicked");
+    lastBtn = this;
+  lastBtn.classList.add("clicked");
+  
+  
+}
