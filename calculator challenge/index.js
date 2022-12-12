@@ -34,7 +34,5 @@ function myFunction() {
   if (lastBtn)
     lastBtn.classList.remove("clicked");
     lastBtn = this;
-  lastBtn.classList.add("clicked");
-  
-  
+   this.classList.add("clicked"); 
 }
