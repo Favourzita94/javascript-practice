@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-image: url("img/table.png");
+    background-size: cover;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 15%;
+}
+.container {
+    text-align: center;
+}
+#message-el {
+    font-style: italic;
+}
+h1 {
+    color: goldenrod;
+}
+button {
+    width: 185px;
+    background-color: goldenrod;
+    border: none;
+    border-radius: 2px;
+    color: #016f32;;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-left: 44%;
+    margin-top: 5px;
+}
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;  
+}
+buttons > button:active {
+    transform: scale(0.96);
+  } 
+  .clicked {
+   border: solid 2px white;
+  }
